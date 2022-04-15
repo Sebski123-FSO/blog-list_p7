@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3QyIiwiaWQiOiI2MjBkMGYwOTA2OGEwZmE0ZWUzNTE2ZjIiLCJpYXQiOjE2NDUwMjQwMDgsImV4cCI6MTY0NTAyNzYwOH0.fcO7EWcTT4FjAD7_KZQkGDrGaphRB0FqNNiOfmbRlHg
+
+{
+    "title":"test blog 3",
+    "author": "chatayne",
+    "url": "example.com/3",
+    "likes": 8008
+}
